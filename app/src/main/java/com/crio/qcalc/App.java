@@ -20,6 +20,23 @@ public class App {
 
     System.out.println(calc.getResult());
 
+    ScientificCalculator calc1 = new ScientificCalculator();
+    double result = calc1.cubeOf(4.0);
+    System.out.println(result);
+
+    double result1 = calc1.squareOf(4.0);
+    System.out.println(result1);
+
+    double result2 = calc1.powerOf(4.0, 5.0);
+    System.out.println(result2);
+
+    double result3 = calc1.squareRoot(6.0);
+    System.out.println(result3
+    
+    );
+
+
+
  
  
     }
