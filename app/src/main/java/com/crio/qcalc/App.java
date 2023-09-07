@@ -22,7 +22,7 @@ public class App {
 
     ScientificCalculator calc1 = new ScientificCalculator();
     double result = calc1.cubeOf(4.0);
-    System.out.println(result);
+    System.out.println("cubeof=" +result);
 
     double result1 = calc1.squareOf(4.0);
     System.out.println(result1);
@@ -31,9 +31,11 @@ public class App {
     System.out.println(result2);
 
     double result3 = calc1.squareRoot(6.0);
-    System.out.println(result3
+    System.out.println(result3);
+
+    int result4 = calc1.modulo(5, 2);
+    System.out.println(result4);
     
-    );
 
 
 
